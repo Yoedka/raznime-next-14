@@ -23,7 +23,7 @@ export const generateMetadata = async ({ params: { animeId } }: AnimeDetailPageP
     title, image, description, genres,
   } = animeDetail ?? {};
 
-  const metadataTitle       = `${title ?? 'Not Found'} - Raznime - Stream Anime Online`;
+  const metadataTitle       = `${title ?? 'Not Found'} - YoedNime - Stream Anime Online`;
   const metadataDescription = description;
 
   return buildMetadata({
