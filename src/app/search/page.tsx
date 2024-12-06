@@ -16,7 +16,7 @@ export const generateMetadata = ({ searchParams }: AnimeSearchPageProps): Metada
   const decodedQuery = searchParams.query ? decodeURIComponent(searchParams.query) : '';
 
   return buildMetadata({
-    title: `"${decodedQuery}" Search Results - Raznime - Stream Anime Online`,
+    title: `"${decodedQuery}" Search Results - YoedNime - Stream Anime Online`,
   });
 };
 
