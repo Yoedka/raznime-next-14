@@ -45,7 +45,7 @@ export default function Footer() {
                 </svg>
                 <span className="sr-only">About Me</span>
               </Link>
-            </Button>21
+            </Button>
             <Button
               variant="link"
               asChild
