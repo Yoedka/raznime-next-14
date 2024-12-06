@@ -3,7 +3,7 @@ import { buildMetadata } from '@/lib/services/metadata-service';
 import PopularAnimeListWithLoader from './popular-anime-list';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Discover Popular Anime - Raznime - Stream Anime Online',
+  title: 'Discover Popular Anime - YoedNime - Stream Anime Online',
 });
 
 export default async function PopularAnimeListPage() {
