@@ -254,7 +254,7 @@ function AnimeVideoPlayer({ episodes, initialEpisodeId }: AnimeVideoPlayerProps)
       </div>
 
       <table className="w-full border-2 text-sm">
-        <tbody>      
+        <tbody>
           {
             animeEmbeddedPlayerLinks.length > 0 && (
               <tr className="border-b-2">
