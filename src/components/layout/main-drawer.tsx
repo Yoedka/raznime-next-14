@@ -38,13 +38,13 @@ export default function MainDrawer() {
           <Link href="/">
             <DrawerTitle>
               <div className="font-bold text-emerald-700 text-3xl mr-5">
-                Raz
+                Yoed
                 <span className="text-fuchsia-700">Nime.</span>
               </div>
             </DrawerTitle>
           </Link>
 
-          <DrawerDescription>Your Gateway to Anime Awesomeness</DrawerDescription>
+          <DrawerDescription>Tonton Anime Kesukaan Kalian Disini</DrawerDescription>
 
           <DrawerClose className="aspect-square absolute top-0 right-0 ring-0 border-none rounded-none rounded-tr-lg" asChild>
             <Button variant="ghost" className="aspect-square">
@@ -81,8 +81,8 @@ export default function MainDrawer() {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024
             { " " }
-            <a href="https://github.com/imamseptian" className="hover:underline">
-              Raznime™
+            <a href="https://instagram.com/yuda.dika_" className="hover:underline">
+              Yoeda Dika
             </a>
             . All Rights Reserved.
           </span>
