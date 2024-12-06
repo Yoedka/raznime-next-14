@@ -3,7 +3,7 @@ import { buildMetadata } from '@/lib/services/metadata-service';
 import AnimeMovieListWithLoader from './movie-list';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Discover Anime Movies - Raznime - Stream Anime Online',
+  title: 'Discover Anime Movies - YoedNime - Stream Anime Online',
 });
 
 export default async function AnimeMovieListPage() {
