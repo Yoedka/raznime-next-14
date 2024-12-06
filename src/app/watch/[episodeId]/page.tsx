@@ -17,7 +17,7 @@ export const generateMetadata = async ({ params: { episodeId } }: WatchAnimeEpis
     genres,
   } = currentAnimeDetail ?? {};
 
-  const metadataTitle       = `${title ? `${title} Episode ${episodeNumber}` : `Not Found`} - Raznime - Stream Anime Online`;
+  const metadataTitle       = `${title ? `${title} Episode ${episodeNumber}` : `Not Found`} - YoedNime - Stream Anime Online`;
   const metadataDescription = description;
 
   return buildMetadata({
