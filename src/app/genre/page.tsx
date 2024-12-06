@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 import { buildMetadata } from '@/lib/services/metadata-service';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Genre List - Raznime - Stream Anime Online',
+  title: 'Genre List - YoedNime - Stream Anime Online',
 });
 
 interface AnimeGenre {
