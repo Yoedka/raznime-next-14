@@ -255,38 +255,7 @@ function AnimeVideoPlayer({ episodes, initialEpisodeId }: AnimeVideoPlayerProps)
 
       <table className="w-full border-2 text-sm">
         <tbody>
-          <tr className="border-b-2">
-            <th
-              className="text-sm border-r-2"
-              scope="row"
-            >
-              Default Server
-            </th>
-            <td className="flex flex-wrap gap-2 px-1 py-3">
-              {
-                DEFAULT_AVAILABLE_SERVERS.map((defaultServer) => {
-                  const isButtonSelected = defaultServer === defaultPlayerServer && playerType === 'default';
-                  return (
-                    <Button
-                      key={ `default-server-button-${defaultServer}` }
-                      type="button"
-                      variant={ isButtonSelected ? 'default' : 'outline' }
-                      className="capitalize"
-                      size="sm"
-                      onClick={ () => handleChangeServerButtonClick('default', defaultServer) }
-                    >
-                      <CirclePlay
-                        size={ 15 }
-                        className="mr-2"
-                      />
-                      { defaultServer }
-                    </Button>
-                  );
-                })
-              }
-            </td>
-          </tr>
-
+          
           {
             animeEmbeddedPlayerLinks.length > 0 && (
               <tr className="border-b-2">
@@ -294,7 +263,7 @@ function AnimeVideoPlayer({ episodes, initialEpisodeId }: AnimeVideoPlayerProps)
                   className="text-sm border-r-2"
                   scope="row"
                 >
-                  Other Servers
+                  Default Servers
                 </th>
                 <td className="flex flex-wrap gap-2 px-1 py-3">
                   { animeEmbeddedPlayerLinks.map((otherServer) => {
