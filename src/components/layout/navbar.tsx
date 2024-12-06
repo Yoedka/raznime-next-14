@@ -20,7 +20,7 @@ export default function Navbar() {
             className="hidden lg:block"
           >
             <div className="font-bold text-emerald-700 text-3xl mr-5">
-              Raz
+              Yoed
               <span className="text-fuchsia-700">Nime.</span>
             </div>
           </Link>
