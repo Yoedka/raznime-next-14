@@ -3,7 +3,7 @@ import { buildMetadata } from '@/lib/services/metadata-service';
 import RecentEpisodeListWithLoader from './recent-episode-list';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Recent Released Episodes - Raznime - Stream Anime Online',
+  title: 'Recent Released Episodes - YoedNime - Stream Anime Online',
 });
 
 export default async function RecentReleasePage() {
