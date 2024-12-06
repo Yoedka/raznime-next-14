@@ -9,7 +9,7 @@ export const generateMetadata = ({ params: { genreId } }: GenreAnimeListPageProp
   const genreLabel = ANIME_GENRES.find((genre) => genre.id === genreId)?.title || '';
 
   return buildMetadata({
-    title: `${genreLabel} Anime - Raznime - Stream Anime Online`,
+    title: `${genreLabel} Anime - YoedNime - Stream Anime Online`,
   });
 };
 
