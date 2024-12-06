@@ -9,7 +9,7 @@ import HomepageAnimeMovieListWithLoader from './homepage-movie-list';
 import HomepageRecentEpisodeListWithLoader from './homepage-recent-episode-list';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Home - Raznime - Stream Anime Online',
+  title: 'Home - YoedNime - Stream Anime Online',
 });
 
 export default async function Homepage() {
